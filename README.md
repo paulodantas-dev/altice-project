@@ -32,6 +32,7 @@ How to install and execute the project in LOCALHOST
     yarn prepare / npm run prepare
     yarn dev / npm run dev
 ```
+
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env
@@ -58,7 +59,6 @@ To deploy this project, run
 - [tailwindcss](https://tailwindcss.com/)
 - [typescript](https://www.typescriptlang.org/)
 - [@reduxjs/toolkit](https://redux-toolkit.js.org/)
-
 
 ## Functionalities
 

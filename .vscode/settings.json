@@ -9,13 +9,8 @@
   "editor.fontSize": 18,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "prettier.documentSelectors": ["*.{tsx,ts}", "*.{jsx,js}"],
   "window.zoomLevel": 1
 }
-
-
-
-
-
