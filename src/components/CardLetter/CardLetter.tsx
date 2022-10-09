@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
+import { ICardLetter } from './CardLetter.types';
 import { CardLetterView } from './CardLetterView';
-import { ICardLetter } from './ICardLetter';
 
 export const CardLetter = ({ letter }: ICardLetter): JSX.Element => {
   const [isModalVisible, setIsModaVisible] = useState(false);

@@ -2,7 +2,7 @@ import { X } from 'phosphor-react';
 
 import { Post } from 'components/Post/Post';
 
-import { IModalPost } from './IModalPost';
+import { IModalPost } from './ModalPost.types';
 
 export const ModalPostView = ({ onModalVisible, posts }: IModalPost): JSX.Element => {
   return (

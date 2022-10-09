@@ -12,7 +12,7 @@ import { ModalPost } from 'components/ModalPost/ModalPost';
 
 import { WEBSITE } from 'config/constant';
 
-import { ICardLetterView } from './ICardLetter';
+import { ICardLetterView } from './CardLetter.types';
 
 export const CardLetterView = ({
   letter,

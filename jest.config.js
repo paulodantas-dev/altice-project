@@ -3,7 +3,7 @@
 module.exports = {
   clearMocks: true,
   roots: ['<rootDir>/src'],
-  setupFilesAfterEnv: ['<rootDir>/config/jest/jestSetup.ts'],
+  setupFilesAfterEnv: ['<rootDir>/config/jest/setupTests.ts'],
   testEnvironment: 'jest-environment-jsdom',
   moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx', 'json'],
   testRegex: '((\\.|/*.)(test))\\.[tj]sx?$',
@@ -14,7 +14,8 @@ module.exports = {
     'src/**/*.{js,jsx,ts,tsx}',
     '!src/main.tsx',
     '!src/config/*.ts',
-    '!src/types/*.tsx',
+    '!src/types/*.ts',
+    '!src/**/*.types.ts',
     '!src/**/*.css',
     '!src/**/*.d.ts',
   ],

@@ -1,4 +1,4 @@
-import { IPost } from './IPost';
+import { IPost } from './Post.types';
 
 export const PostView = ({ post }: IPost): JSX.Element => {
   return (

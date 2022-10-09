@@ -1,6 +1,6 @@
 import { CardLetter } from 'components/CardLetter/CardLetter';
 
-import { IHome } from './IHome';
+import { IHome } from './Home.types';
 
 export const HomeView = ({ letters }: IHome): JSX.Element => {
   return (
