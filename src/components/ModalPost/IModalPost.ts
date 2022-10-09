@@ -1,6 +1,6 @@
 import { Post } from 'types/Posts';
 
-export interface IModal {
+export interface IModalPost {
   onModalVisible: () => void;
   posts: Post[];
 }

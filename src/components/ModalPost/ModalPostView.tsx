@@ -2,9 +2,9 @@ import { X } from 'phosphor-react';
 
 import { Post } from 'components/Post/Post';
 
-import { IModal } from './IModal';
+import { IModalPost } from './IModalPost';
 
-export const ModalView = ({ onModalVisible, posts }: IModal): JSX.Element => {
+export const ModalPostView = ({ onModalVisible, posts }: IModalPost): JSX.Element => {
   return (
     <div className="absolute overflow-hidden top-0 left-0 w-full h-screen bg-black/75 flex items-center justify-center z-50">
       <div className="bg-white w-[560px] h-[560px] rounded-2xl flex flex-col">

@@ -11,7 +11,16 @@ async function getPosts(): Promise<Post[]> {
       return data;
     })
     .catch((error) => {
-      throw error;
+      switch (error.response.status) {
+        case 404:
+          return alert('404 - Not Found');
+
+        case 500:
+          return alert('500 - Internal Server Error');
+
+        default:
+          return alert('Something went wrong');
+      }
     });
 }
 

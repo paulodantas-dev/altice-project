@@ -8,7 +8,7 @@ import {
   Buildings,
 } from 'phosphor-react';
 
-import { Modal } from 'components/Modal/Modal';
+import { ModalPost } from 'components/ModalPost/ModalPost';
 
 import { WEBSITE } from 'config/constant';
 
@@ -93,7 +93,7 @@ export const CardLetterView = ({
           </footer>
         </div>
       </div>
-      {isModalVisible && <Modal onModalVisible={onModalVisible} posts={letter.posts} />}
+      {isModalVisible && <ModalPost onModalVisible={onModalVisible} posts={letter.posts} />}
     </>
   );
 };
