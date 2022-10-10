@@ -1,12 +1,6 @@
-# auth-client-app
-
-APP - building
-
-API - https://auth-app-node.herokuapp.com
-
 ## 🛠 Skills
 
-Javascript, ReactJS, react-router-dom, Redux, HOC, Private Route, Hook, react-hook-form, yup, axios
+TypeScript, ReactJS, axios, Jest
 
 ## 🚀 About Me
 
@@ -59,10 +53,6 @@ How to install and execute the project in LOCALHOST
 - Tests 100% coverage
 - Axios Config
 - Api Calls
-
-## Demo
-
-![app](https://github.com/paulodantas-dev/auth-client/blob/main/src/assets/app.gif)
 
 ## Feedback
 
