@@ -19,7 +19,6 @@ Feel free to take a look at my latest projects on my [portifolio page](https://p
 
 **CSS:** tailwindcss
 
-
 ## Installation / Execute
 
 How to install and execute the project in LOCALHOST
@@ -55,19 +54,15 @@ How to install and execute the project in LOCALHOST
 - [tailwindcss](https://tailwindcss.com/)
 - [typescript](https://www.typescriptlang.org/)
 
-
 ## Functionalities
-
 
 - Tests 100% coverage
 - Axios Config
 - Api Calls
 
-
 ## Demo
 
 ![app](https://github.com/paulodantas-dev/auth-client/blob/main/src/assets/app.gif)
-
 
 ## Feedback
 

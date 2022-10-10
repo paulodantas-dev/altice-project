@@ -12,7 +12,10 @@ module.exports = {
   coverageReporters: ['cobertura', 'html', 'lcov', 'text-summary', 'text'],
   collectCoverageFrom: [
     'src/**/*.{js,jsx,ts,tsx}',
+    '!src/services/**/*.ts',
+    '!src/useCases/**/*.ts',
     '!src/main.tsx',
+    '!src/App.tsx',
     '!src/config/*.ts',
     '!src/types/*.ts',
     '!src/**/*.types.ts',
@@ -49,4 +52,6 @@ module.exports = {
   preset: 'ts-jest',
   coverageProvider: 'v8',
   extensionsToTreatAsEsm: ['.ts', '.tsx'],
+  bail: 1,
+  verbose: true,
 };
